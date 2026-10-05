@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Robototexnika Test</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="card">
+  <section id="categories">
+    <h1>Bo'limni tanlang</h1>
+    <p id="info">Bo'limlar yuklanmoqda...</p>
+    <div id="catList" class="cat-list"></div>
+  </section>
+
+  <section id="start" hidden>
+    <h1>Ma'lumotlaringiz</h1>
+    <p id="chosenBolim" class="chosen"></p>
+    <div class="field">
+      <label for="fio">Ism-familya</label>
+      <input id="fio" type="text" placeholder="Masalan: Aliyev Vali">
+    </div>
+    <div class="field">
+      <label for="klass">Sinf</label>
+      <input id="klass" type="text" placeholder="Masalan: 9-A">
+    </div>
+    <div class="result-actions">
+      <button id="beginBtn" disabled>Testni boshlash</button>
+      <button id="toCategoriesBtn" class="secondary">Orqaga</button>
+    </div>
+  </section>
+
+  <section id="quiz" hidden>
+    <div class="top">
+      <span id="counter"></span>
+      <span id="timer"></span>
+      <span id="topic"></span>
+    </div>
+    <div class="bar"><div id="fill"></div></div>
+    <h2 id="question"></h2>
+    <div id="options"></div>
+    <button id="nextBtn" disabled>Keyingi</button>
+  </section>
+
+  <section id="result" hidden>
+    <h1>Natija</h1>
+    <p id="studentInfo" class="student"></p>
+    <div class="score"><span id="scoreNum"></span></div>
+    <p id="scoreText"></p>
+    <p id="timeText"></p>
+    <h3>Xatolar tahlili</h3>
+    <div id="review"></div>
+    <p id="sendStatus"></p>
+    <div class="result-actions">
+      <button id="restartBtn">Qayta urinish (shu bo'lim)</button>
+      <button id="backBtn" class="secondary">Boshqa bo'lim</button>
+    </div>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

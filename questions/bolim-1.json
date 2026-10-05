@@ -1,0 +1,1151 @@
+{
+    "id": 1,
+    "name": "1-bo'lim: Robototexnika asoslari",
+    "active": true,
+    "questions": [
+        {
+            "t": 0,
+            "q": "Robototexnika qaysi fanlar kesishmasida joylashgan soha hisoblanadi?",
+            "o": [
+                "Faqat matematika va fizika",
+                "Mexanika, elektronika va dasturlash",
+                "Biologiya, kimyo va tarix",
+                "Faqat tasviriy san'at va adabiyot"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Robot ta'rifiga ko'ra u qanday qurilma?",
+            "o": [
+                "Faqat odam pult bilan boshqaradigan o'yinchoq",
+                "Dasturlash orqali boshqariladigan, mustaqil yoki yarim mustaqil harakat qiluvchi mexanik qurilma",
+                "Faqat elektr energiyasi ishlab chiqaradigan generator",
+                "Ekranli oddiy kompyuter monitori"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Robotning 3 ta asosiy tarkibiy komponenti qaysilar?",
+            "o": [
+                "Ekran, klaviatura, sichqoncha",
+                "Sensor, protsessor, aktuator",
+                "Batareya, korpus, g'ildirak",
+                "Sim, tugma, chiroq"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Robotda sensor (datchik) qanday vazifani bajaradi?",
+            "o": [
+                "Harakatni amalga oshiradi va g'ildirakni aylantiradi",
+                "Atrof-muhitni kuzatadi va his qiladi (masofa, harorat, ko'rish)",
+                "Elektr tokini kuchaytiradi",
+                "Dastur kodini xotiraga yozadi"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Robotda protsessor qanday rol o'ynaydi?",
+            "o": [
+                "Robotning 'qo'llari' vazifasini bajaradi",
+                "Robotning 'miyasi' hisoblanib, ma'lumotni qayta ishlaydi va qaror qabul qiladi",
+                "Atrof-muhitdagi yorug'likni o'lchaydi",
+                "Robotga qobiq bo'lib xizmat qiladi"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Robotda aktuatorlar qanday vazifani bajaradi?",
+            "o": [
+                "Atrof-muhit haroratini o'lchaydi",
+                "Qaror qabul qiladi va kodni saqlaydi",
+                "Motorlar, g'ildiraklar va manipulyatorlar orqali harakatni bajaradi",
+                "Wi-Fi signalini qabul qiladi"
+            ],
+            "a": 2
+        },
+        {
+            "t": 0,
+            "q": "Robot inson bilan solishtirilganda, uning sensorlari insonning qaysi a'zosiga o'xshaydi?",
+            "o": [
+                "Suyak va mushaklariga",
+                "Sezgi organlariga (ko'z, quloq, teri)",
+                "Yuragiga",
+                "Oshqozoniga"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Robotning protsessori insonning qaysi a'zosi vazifasini bajaradi?",
+            "o": [
+                "Jigar",
+                "Miya",
+                "Qo'l",
+                "O'pka"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Robotning aktuatorlari insonning qaysi tizimiga mos keladi?",
+            "o": [
+                "Asab tizimi",
+                "Sezgi a'zolari",
+                "Muskul va suyak (harakat) tizimi",
+                "Xotira tizimi"
+            ],
+            "a": 2
+        },
+        {
+            "t": 0,
+            "q": "Quyidagi qurilmalardan qaysi biri darsda keltirilgan 'Robot yoki emas?' o'yinida robot xususiyatiga ega deb qaraladi?",
+            "o": [
+                "Oddiy pichoq",
+                "Avtomatik navigatsiya va sensorga ega robot changyutgich",
+                "Oddiy yog'och stol",
+                "Qo'lda chertiladigan torli soz"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Robot atrof-muhitdan ma'lumotni qanday vosita orqali oladi?",
+            "o": [
+                "Aktuator",
+                "Sensor (datchik)",
+                "Korpus",
+                "Reaktor"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Robotning mexanika qismiga nimalar kiradi?",
+            "o": [
+                "Dastur kodi va algoritmlar",
+                "Korpus, motorlar va harakat mexanizmlari",
+                "Faqat sensorlar va elektr simlari",
+                "Wi-Fi va Bluetooth modullari"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Robotning elektronika qismiga nimalar kiradi?",
+            "o": [
+                "Faqat yog'och va plastik korpus",
+                "Sensorlar, sxemalar va quvvat manbalari",
+                "Faqat blok-sxema chizmalari",
+                "Faqat matnli buyruqlar"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Robotning dasturlash qismi nimadan iborat?",
+            "o": [
+                "G'ildiraklar va tishli g'ildiraklar",
+                "Buyruqlar, algoritm va boshqaruv kodi",
+                "Rezistor va kondensatorlar",
+                "Plastik vintlar"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Robotni baholashda 'U robotmi?' degan savolga javob berish uchun qaysi 3 xususiyat tekshiriladi?",
+            "o": [
+                "Rangi qizilmi, og'irligi 10kgmi, narxi qimmatmi",
+                "Sensori bormi, qaror qabul qiladimi, mustaqil harakat qiladimi",
+                "Katta displeyi bormi, kamerasi bor, plastikdandimi",
+                "Metallmi, batareyasi bormi, ovoz chiqaradimi"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Qadimgi afsonalarda avtomatlar g'oyasi sifatida qaysi obraz keltirilgan?",
+            "o": [
+                "Sintetik odam",
+                "Talos afsonasi",
+                "Terminator",
+                "Robokop"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Islom oltin davrida murakkab mexanik avtomatlar yaratgan mashhur olim va muhandis kim?",
+            "o": [
+                "Al-Xorazmiy",
+                "Al-Fargoniy",
+                "Al-Jazariy",
+                "Ibn Sino"
+            ],
+            "a": 2
+        },
+        {
+            "t": 1,
+            "q": "'Robot' so'zi birinchi bor nechanchi yilda ishlatilgan?",
+            "o": [
+                "1850-yilda",
+                "1921-yilda",
+                "1980-yilda",
+                "2000-yilda"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "'Robot' so'zi adabiyotda kim tomonidan va qaysi asarda birinchi bor ishlatilgan?",
+            "o": [
+                "Jules Verne 'Suv ostida 20000 lye'",
+                "Karel Chapek 'R.U.R.' pyesasida",
+                "Isaac Asimov 'Men robotman'",
+                "HG Wells 'Dunyolar urushi'"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Dunyodagi birinchi sanoat roboti qanday nomlangan?",
+            "o": [
+                "Shakey",
+                "Unimate",
+                "Roomba",
+                "Curiosity"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Birinchi sanoat roboti 'Unimate' nechanchi yillarda yaratilgan?",
+            "o": [
+                "1920-1925 yillarda",
+                "1954-1961 yillarda",
+                "1995-2000 yillarda",
+                "2010-2015 yillarda"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "1969-yilda yaratilgan birinchi harakatlanuvchi va fikrlovchi robot qanday nomlangan?",
+            "o": [
+                "Unimate",
+                "Shakey",
+                "Asimo",
+                "Da Vinci"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "1990-2000 yillarda qanday turdagi robotlar keskin rivojlandi?",
+            "o": [
+                "Faqat harbiy suvosti kemalari",
+                "Uy va xizmat robotlari (masalan, Roomba)",
+                "Faqat kosmik raketalar",
+                "Faqat atom reaktorlari"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Hozirgi davrda robototexnikada qanday asosiy texnologiya bilan integratsiya kuzatilmoqda?",
+            "o": [
+                "Bug' dvigatellari",
+                "Sun'iy intellekt (AI)",
+                "Mexanik soat mexanizmi",
+                "Telegraf aloqasi"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Karel Chapekning 'R.U.R.' pyesasidagi 'Robot' so'zi qanday ma'noni anglatgan?",
+            "o": [
+                "Uchuvchi apparat",
+                "Majburiy mehnat yoki mehnatkash",
+                "Aqlli kompyuter",
+                "Sehrli mexanizm"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Robototexnikaning zamonaviy rivojlanishi qaysi yillardan faol boshlangan deb hisoblanadi?",
+            "o": [
+                "1500-yillardan",
+                "1950-yillardan",
+                "2020-yillardan",
+                "1800-yillardan"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Al-Jazariy tomonidan qanday mexanizmlar o'ylab topilgan?",
+            "o": [
+                "Elektromobil",
+                "Suv soatlari va avtomatlashtirilgan mexanik qurilmalar",
+                "Kosmik sun'iy yo'ldosh",
+                "Mikroprotsessor"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Uy-ro'zg'or robotlarining birinchi mashhur misollaridan biri bo'lgan Roomba nima vazifani bajaradi?",
+            "o": [
+                "Musiqa chaladi",
+                "Uy pollarini tozalaydi (changyutgich)",
+                "Ovqat pishiradi",
+                "Kiyim dazmollaydi"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Shakey roboti nima uchun robototexnika tarixida muhim bosqich hisoblanadi?",
+            "o": [
+                "U birinchi bo'lib uchgan",
+                "U birinchi harakatlanuvchi va mantiqiy fikrlaydigan robot bo'lgan",
+                "U birinchi bo'lib suv ostida suzgan",
+                "U birinchi kosmosga uchirilgan"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Robototexnika rivojlanish xronologiyasida to'g'ri ketma-ketlik qaysi?",
+            "o": [
+                "Roomba -&gt; Unimate -&gt; Shakey",
+                "Al-Jazariy -&gt; K.Chapek (1921) -&gt; Unimate (1954-61) -&gt; Shakey (1969) -&gt; Roomba",
+                "Shakey -&gt; Al-Jazariy -&gt; Unimate",
+                "Unimate -&gt; Al-Jazariy -&gt; AI robotlar"
+            ],
+            "a": 1
+        },
+        {
+            "t": 2,
+            "q": "Robototexnika qo'llaniladigan 5 asosiy soha qaysilar?",
+            "o": [
+                "Sanoat, tibbiyot, uy-ro'zg'or, kosmos, ta'lim",
+                "Faqat futbol, shaxmat, suzish, yugurish, sakrash",
+                "Tarix, geografiya, adabiyot, til, tasviriy san'at",
+                "Faqat harbiy, dehqonchilik, chorvachilik, baliqchilik, o'rmonchilik"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "Sanoat robotlarining asosiy vazifasi nimadan iborat?",
+            "o": [
+                "Zavodlarda og'ir va takroriy ishlarni (payvandlash, bo'yash, yig'ish) bajarish",
+                "Maktabda o'quvchilarga dars o'tish",
+                "Uyda bolalarga ertak aytib berish",
+                "Marsda suv izlash"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "Sanoatda ishlatiladigan avtomatlashtirilgan mexanik qo'llar nima deyiladi?",
+            "o": [
+                "Manipulyatorlar",
+                "Sensorlar",
+                "Ekzoskeletlar",
+                "Zondlar"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "Tibbiyotda shifokorlarga kichik teshiklar orqali aniq operatsiyalar o'tkazishda yordam beradigan mashhur jarrohlik roboti qaysi?",
+            "o": [
+                "Roomba",
+                "Da Vinci",
+                "Curiosity",
+                "mBot"
+            ],
+            "a": 1
+        },
+        {
+            "t": 2,
+            "q": "Jarrohlikda Da Vinci roboti ishlatilganda qanday afzallik beradi?",
+            "o": [
+                "Qon yo'qotish kamayadi va tuzalish tezlashadi",
+                "Operatsiya vaqti 10 barobar uzayadi",
+                "Shifokorga ehtiyoj qolmaydi",
+                "Bemor uyida davolanadi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "Insult yoki jarohatdan keyin bemorlarning harakatini tiklashga yordam beruvchi robotlar nima deyiladi?",
+            "o": [
+                "Sanoat roboti",
+                "Reabilitatsiya robotlari va ekzoskeletlar",
+                "Mars roverlari",
+                "Aqlli kolonkalar"
+            ],
+            "a": 1
+        },
+        {
+            "t": 2,
+            "q": "Miya signallarini o'qib barmoqlar va qo'llarni boshqarish imkonini beruvchi qurilmalar nima deyiladi?",
+            "o": [
+                "Bionic protezlar",
+                "Oddiy yog'och hassalar",
+                "G'ildirakli stullar",
+                "Bluetooth naushniklar"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "Uy-ro'zg'or robotlariga qaysi qurilmalar misol bo'ladi?",
+            "o": [
+                "CNC mashinalari va payvandlash robotlari",
+                "Robot changyutgichlar, aqlli kolonkalar, avtomatik oshxona yordamchilari",
+                "Voyager va Cassini zondlari",
+                "Da Vinci jarrohlik tizimi"
+            ],
+            "a": 1
+        },
+        {
+            "t": 2,
+            "q": "Uy robotlarining insonlarga beradigan asosiy foydasi nimada?",
+            "o": [
+                "Vaqtni tejaydi va kundalik hayotni osonlashtiradi",
+                "Zavodda avtomobil yig'adi",
+                "Kosmik stansiyani quradi",
+                "O'quvchilarga baho qo'yadi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "Mars sayyorasini tadqiq qilish uchun yuborilgan mashhur kosmik robotlar (roverlar) qaysilar?",
+            "o": [
+                "Unimate va Shakey",
+                "Curiosity va Perseverance",
+                "Roomba va Da Vinci",
+                "mBot va LEGO WeDo"
+            ],
+            "a": 1
+        },
+        {
+            "t": 2,
+            "q": "Uzoq sayyoralarni va ochiq kosmosni o'rgangan kosmik zondlar qaysilar?",
+            "o": [
+                "Voyager va Cassini",
+                "Arduino va ESP32",
+                "Da Vinci va Unimate",
+                "Smart Hub va LED"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "Kosmosda robotlardan foydalanishning asosiy sababi nimada?",
+            "o": [
+                "Inson hayoti uchun xavfli bo'lgan muhitda tadqiqot olib borish va insonni himoya qilish",
+                "Kosmosda oziq-ovqat yetishtirish",
+                "Kosmosda zavodlar qurish",
+                "Kosmosda maktablar ochish"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "Ta'lim robotlariga qaysi to'plamlar misol bo'ladi?",
+            "o": [
+                "LEGO Mindstorms va mBot",
+                "Da Vinci va Ekzoskelet",
+                "Curiosity va Perseverance",
+                "Unimate va Shakey"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "Ta'lim robotlari (STEM) o'quvchilarga nimani o'rgatadi?",
+            "o": [
+                "Dasturlash, muhandislik va muammolarni hal qilishni",
+                "Faqat she'r yodlashni",
+                "Faqat rasm chizishni",
+                "Faqat tez yugurishni"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "STEM abbreviaturasi ta'limda qaysi yo'nalishlarni anglatadi?",
+            "o": [
+                "Science, Technology, Engineering, Mathematics",
+                "Sport, Transport, Ecology, Music",
+                "Sanoat, Texnika, Elektr, Mexanika",
+                "System, Tool, Energy, Method"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "Kelajakda robototexnika sohasida qanday yangi kasblar paydo bo'ladi?",
+            "o": [
+                "Robot dizayneri, AI dasturchi, avtomatlashtirish muhandisi",
+                "Faqat otboqar",
+                "Faqat xat tashuvchi",
+                "Faqat qo'lda g'isht teruvchi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "Avtomobil zavodlarida konveyer liniyasida mashinalarni bo'yash va yig'ishda qaysi soha robotlari ishlaydi?",
+            "o": [
+                "Kosmos robotlari",
+                "Sanoat robotlari",
+                "Ta'lim robotlari",
+                "Uy-ro'zg'or robotlari"
+            ],
+            "a": 1
+        },
+        {
+            "t": 2,
+            "q": "Oshxonada avtomatik taom tayyorlashga ko'maklashuvchi aqlli qurilmalar qaysi guruhga kiradi?",
+            "o": [
+                "Uy-ro'zg'or robotlari",
+                "Sanoat robotlari",
+                "Kosmos robotlari",
+                "Tibbiyot robotlari"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "Ekzoskelet qurilmasi bemorga qanday yordam beradi?",
+            "o": [
+                "Oyoq-qo'llarni qayta harakatlantirishni o'rgatadi va mashqlarni avtomatlashtiradi",
+                "Bemorning haroratini o'lchamaydi",
+                "Bemorga dori retseptini yozadi",
+                "Ko'zoynak o'rnini bosadi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "Robot loyihasini ishlab chiqishda 'Robot G'oyasi Shabloni'da qaysi bosqichlar aks etadi?",
+            "o": [
+                "Vazifa, Ko'rinish, Muammo va Yechim",
+                "Faqat rangi va narxi",
+                "Faqat qayerdan sotib olinishi",
+                "Faqat o'g'irlikka qarshi kodi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 3,
+            "q": "Arduino Uno nima?",
+            "o": [
+                "Katta sanoat roboti",
+                "Robotning buyruqlarni bajaruvchi kichik kompyuteri (mikrokontroller platasi)",
+                "Faqat elektr batareyasi",
+                "Plastik g'ildirak"
+            ],
+            "a": 1
+        },
+        {
+            "t": 3,
+            "q": "Arduino Uno mikrokontrollerida dastur kiritish uchun qaysi port ishlatiladi?",
+            "o": [
+                "Quvvat porti",
+                "USB port",
+                "HDMI port",
+                "Audio jack"
+            ],
+            "a": 1
+        },
+        {
+            "t": 3,
+            "q": "Arduino Unodagi sensorlar va elektron komponentlar ulanadigan nuqtalar nima deyiladi?",
+            "o": [
+                "Relslar",
+                "Pinlar (pin-ulanish nuqtalari)",
+                "Tranzistorlar",
+                "Kabel cliplari"
+            ],
+            "a": 1
+        },
+        {
+            "t": 3,
+            "q": "Arduino Uno platasining asosiy chipi ('miyasi') qaysi mikroprotsessor hisoblanadi?",
+            "o": [
+                "ATmega328P",
+                "Intel Core i9",
+                "Apple M1",
+                "Snapdragon 888"
+            ],
+            "a": 0
+        },
+        {
+            "t": 3,
+            "q": "ESP32 platasining Arduino Unoga nisbatan asosiy ustunligi ('super kuchi') nimada?",
+            "o": [
+                "Unda o'rnatilgan Wi-Fi va Bluetooth modullari bor",
+                "U faqat yog'ochdan yasalgan",
+                "Unda umuman chip yo'q",
+                "U faqat batareyasiz ishlaydi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 3,
+            "q": "ESP32 platasi qanday loyihalar uchun juda mos keladi?",
+            "o": [
+                "Aqlli uy (Smart Home) va telefon orqali boshqariladigan IoT loyihalar",
+                "Oddiy mexanik o'yinchoqlar",
+                "Faqat o'chirgich tayyorlash",
+                "Qog'oz kesish"
+            ],
+            "a": 0
+        },
+        {
+            "t": 3,
+            "q": "Arduino Uno va ESP32 solishtirilganda, boshlovchilar uchun qaysi biri tavsiya etiladi?",
+            "o": [
+                "ESP32",
+                "Arduino Uno",
+                "Ikkala plata ham mos kelmaydi",
+                "Faqat sanoat konveyeri"
+            ],
+            "a": 1
+        },
+        {
+            "t": 3,
+            "q": "LEGO WeDo 2.0 to'plamidagi boshqaruv markazi ('miyasi') nima deb ataladi?",
+            "o": [
+                "Smart Hub",
+                "USB Dongle",
+                "Main Chip",
+                "Power Box"
+            ],
+            "a": 0
+        },
+        {
+            "t": 3,
+            "q": "LEGO WeDo 2.0 to'plami planshet va kompyuterga qanday usulda ulanadi va dasturlanadi?",
+            "o": [
+                "Simsiz (Bluetooth orqali) va blokli dasturlash yordamida",
+                "Faqat yo'g'on kabel orqali",
+                "Faqat pult orqali",
+                "Ulanmaydi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 3,
+            "q": "LEGO WeDo 2.0 to'plami qaysi yoshdagi va yo'nalishdagi o'quvchilar uchun mo'ljallangan?",
+            "o": [
+                "Yosh ixtirochilar uchun mexanika va kodlashni o'rgatuvchi tizim",
+                "Faqat universitet professorlari uchun",
+                "Faqat harbiy uchuvchilar uchun",
+                "Faqat avtopoygachilar uchun"
+            ],
+            "a": 0
+        },
+        {
+            "t": 3,
+            "q": "Arduino Unoga tashqi quvvat manbaini ulash uchun qaysi port ishlatiladi?",
+            "o": [
+                "USB port",
+                "Quvvat porti (Power jack)",
+                "Sensor porti",
+                "HDMI port"
+            ],
+            "a": 1
+        },
+        {
+            "t": 3,
+            "q": "Arduino Uno platasida Wi-Fi o'rnatilganmi?",
+            "o": [
+                "Ha, bor",
+                "Yo'q, Wi-Fi o'rnatilmagan",
+                "Faqat sun'iy yo'ldosh aloqasi bor",
+                "Faqat radio toqin bor"
+            ],
+            "a": 1
+        },
+        {
+            "t": 3,
+            "q": "ESP32 yordamida robotni qanday boshqarish mumkin?",
+            "o": [
+                "Faqat simli pult bilan",
+                "Telefon orqali (Wi-Fi/Bluetooth yordamida)",
+                "Faqat quyosh nuri bilan",
+                "Ovoz chiqarib qichqirish bilan"
+            ],
+            "a": 1
+        },
+        {
+            "t": 3,
+            "q": "LEGO WeDo 2.0 motori va datchiklari qayerga ulanadi?",
+            "o": [
+                "Smart Hub ga",
+                "To'g'ridan-to'g'ri 220V rozetkaga",
+                "Kompyuter klaviaturasiga",
+                "Telefon ekraniga"
+            ],
+            "a": 0
+        },
+        {
+            "t": 3,
+            "q": "Arduino yoki ESP32 platasini ushlaganda xavfsizlik qoidasiga ko'ra nimalarga e'tibor berish kerak?",
+            "o": [
+                "Platani metall qismidan ushlamaslik kerak",
+                "Uni suvga bo'ktirib olish kerak",
+                "Uni olovga tutish kerak",
+                "Uni bolg'a bilan urish kerak"
+            ],
+            "a": 0
+        },
+        {
+            "t": 4,
+            "q": "Maket platasi (Breadboard) nima uchun ishlatiladi?",
+            "o": [
+                "Elektr sxemalarini lehimlashsiz (payvandlashsiz) tez va qulay yig'ish uchun",
+                "Robotning g'ildiragini mahkamlash uchun",
+                "Kompyuter ekranini tozalash uchun",
+                "Dastur kodi yozish uchun"
+            ],
+            "a": 0
+        },
+        {
+            "t": 4,
+            "q": "Breadboard ichida elektr toki qanday harakatlanadi?",
+            "o": [
+                "Havo orqali sakraydi",
+                "Yashirin metall izlar bo'ylab (gorizontal va vertikal yo'nalishda)",
+                "Plastik ustida oqadi",
+                "Harakatlanmaydi"
+            ],
+            "a": 1
+        },
+        {
+            "t": 4,
+            "q": "Breadboardning chetidagi quvvat relslari (Power rails) odatda qanday yo'nalishda ulangan?",
+            "o": [
+                "Vertikal yo'nalishda",
+                "Gorizontal aloqa yo'nalishida",
+                "Diagonali bo'ylab",
+                "Doira shaklida"
+            ],
+            "a": 1
+        },
+        {
+            "t": 4,
+            "q": "Breadboardning markazidagi ulanish teshiklari (maydoni) qanday yo'nalishda o'zaro bog'langan?",
+            "o": [
+                "Gorizontal aloqa",
+                "Vertikal aloqa (ustunlar bo'ylab)",
+                "Tarqoq holda",
+                "Ulanmagan"
+            ],
+            "a": 1
+        },
+        {
+            "t": 4,
+            "q": "LED (Yorug'lik diodi) elektronikada qanday vazifani bajaradi?",
+            "o": [
+                "Elektr toki o'tganda yonadi, robotning 'ko'zlari' yoki signal beruvchi chirog'i",
+                "Tokni butunlay to'xtatib qo'yadi",
+                "Ovoz chiqaradi",
+                "Robotni harakatga keltiradi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 4,
+            "q": "Rezistor komponentining elektron sxamadagi asosiy vazifasi nima?",
+            "o": [
+                "Tok kuchini kamaytiradi ('qisib' turadi) va LEDni kuyib qolishdan himoyalaydi",
+                "Chiroqni yanada yorqinroq portlatadi",
+                "Elektr energiyasini to'playdi",
+                "Simlarni bir-biriga yopishtiradi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 4,
+            "q": "Agarda LED chirog'i rezistorsiz me'yordan ortiq tok manbaiga ulansa nima sodir bo'ladi?",
+            "o": [
+                "LED uzoqroq xizmat qiladi",
+                "LED kuydi (buziladi)",
+                "LED rangini ko'kga o'zgartiradi",
+                "Hech narsa bo'lmaydi"
+            ],
+            "a": 1
+        },
+        {
+            "t": 4,
+            "q": "Jumper simlari (ulovchi simlar) elektronikada nima uchun kerak?",
+            "o": [
+                "Komponentlar va platani bir-biriga bog'lab, elektr yo'lini hosil qilish uchun",
+                "Robotni bezatish uchun",
+                "Rezistor o'rnida ishlatish uchun",
+                "Platani sovutish uchun"
+            ],
+            "a": 0
+        },
+        {
+            "t": 4,
+            "q": "Jumper simlarining qanday turlari darsda ko'rsatilgan?",
+            "o": [
+                "Male-Male va Male-Female turlari",
+                "Faqat alyumin simlar",
+                "Faqat arqon simlar",
+                "Faqat optik simlar"
+            ],
+            "a": 0
+        },
+        {
+            "t": 4,
+            "q": "Robotning 'asab tizimi' deb darsda qaysi qismlar atalgan?",
+            "o": [
+                "Faqat yog'och ramka",
+                "Elektronika qismlari (simlar, breadboard, rezistor, LED)",
+                "Faqat plastmassa g'ildiraklar",
+                "Faqat USB kabel"
+            ],
+            "a": 1
+        },
+        {
+            "t": 4,
+            "q": "LED so'zining kengaytmasi nima?",
+            "o": [
+                "Light Emitting Diode (Yorug'lik taratuvchi diod)",
+                "Low Energy Device",
+                "Long Electric Drive",
+                "Laser Electron Detector"
+            ],
+            "a": 0
+        },
+        {
+            "t": 4,
+            "q": "Breadboardda lehimlash (payvandlash) uskunasi ishlatiladimi?",
+            "o": [
+                "Yo'q, Breadboard lehimlashsiz sxema yig'ish maydoni",
+                "Ha, albatta lehimlash shart",
+                "Faqat yelim ishlatiladi",
+                "Faqat yog'och ishlatiladi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 4,
+            "q": "Rezistorning elektr qarshiligi nimada o'lchanadi?",
+            "o": [
+                "Voltda",
+                "Om (Ohm) da",
+                "Amperda",
+                "Litrda"
+            ],
+            "a": 1
+        },
+        {
+            "t": 4,
+            "q": "Qaysi elektron komponent tok kuchini 'suv jo'mragi' kabi qisib, cheklab turishga o'xshatilgan?",
+            "o": [
+                "Rezistor",
+                "LED",
+                "Jumper sim",
+                "Tugma"
+            ],
+            "a": 0
+        },
+        {
+            "t": 4,
+            "q": "Arduino va LED o'rtasidagi zanjirni to'g'ri yig'ish uchun qanday tartib qo'llaniladi?",
+            "o": [
+                "Arduino pini -&gt; Rezistor -&gt; LED -&gt; Gnd (Minus)",
+                "Faqat LEDni 220V ga ulash",
+                "Rezistorni olib tashlash",
+                "Faqat simlarni bir-biriga o'rash"
+            ],
+            "a": 0
+        },
+        {
+            "t": 5,
+            "q": "Algoritm nima?",
+            "o": [
+                "Harakatni yoki vazifani bajarish uchun yozilgan ketma-ket bajariladigan aniq buyruqlar to'plami",
+                "Kompyuterning fizik ekrani",
+                "Robotning plastik korpusi",
+                "Tasodifiy o'ylab topilgan harakatlar"
+            ],
+            "a": 0
+        },
+        {
+            "t": 5,
+            "q": "Algoritmik tafakkur robototexnika va dasturlashda nima deb ataladi?",
+            "o": [
+                "Robotning 'yuragi'",
+                "Robototexnika va dasturlashning 'miyasi' - mantiqiy qadamlar orqali boshqaruv",
+                "Robotning 'qo'llari'",
+                "Robotning 'ko'zi'"
+            ],
+            "a": 1
+        },
+        {
+            "t": 5,
+            "q": "Algoritmning 4 ta asosiy xususiyati qaysilar?",
+            "o": [
+                "Aniqlik, Ketma-ketlik, Cheklilik, Natijaviylik",
+                "Kattalik, Og'irlik, Rangdorlik, Qimmatlik",
+                "Tezlik, Shovqinlik, Qattiqlik, Yumshoqlik",
+                "Sirliylik, Tasodifiylik, Uzunlik, Murakkablik"
+            ],
+            "a": 0
+        },
+        {
+            "t": 5,
+            "q": "Algoritmning 'Aniqlik' xususiyati nimani anglatadi?",
+            "o": [
+                "Qadamlar har bir ijrochi uchun tushunarli va bir ma'noli bo'lishi kerak",
+                "Qadamlar soni 1000 tadan ko'p bo'lishi kerak",
+                "Natija noaniq bo'lishi kerak",
+                "Qadamlar ixtiyoriy bajarilishi kerak"
+            ],
+            "a": 0
+        },
+        {
+            "t": 5,
+            "q": "Algoritmning 'Ketma-ketlik' xususiyati nimani anglatadi?",
+            "o": [
+                "Qadamlar o'z o'rnida tartib bilan bajarilishi shart",
+                "Barcha qadamlar bir vaqtda bajarilishi kerak",
+                "Qadamlar orqaga qarab bajarilishi kerak",
+                "Tartibning ahamiyati yo'q"
+            ],
+            "a": 0
+        },
+        {
+            "t": 5,
+            "q": "Algoritmning 'Cheklilik' xususiyati nimani bildiradi?",
+            "o": [
+                "Algoritm qadamlari abadiy davom etishi kerak",
+                "Algoritm ma'lum bir chekli qadamlardan so'ng tugashi kerak",
+                "Algoritm faqat 1 daqiqa ishlashi kerak",
+                "Algoritmda qadamlar bo'lmasligi kerak"
+            ],
+            "a": 1
+        },
+        {
+            "t": 5,
+            "q": "Algoritmning 'Natijaviylik' xususiyati nimani anglatadi?",
+            "o": [
+                "Algoritm oxirida ko'zlangan aniq maqsad/natijaga erishilishi kerak",
+                "Algoritm hech qanday natija bermasligi kerak",
+                "Natija har safar turlicha bo'lishi kerak",
+                "Algoritm faqat xatolik berishi kerak"
+            ],
+            "a": 0
+        },
+        {
+            "t": 5,
+            "q": "Kundalik hayotdagi quyidagi jarayonlardan qaysi biri algoritmga misol bo'ladi?",
+            "o": [
+                "Ertalab uyg'onib, tish yuvish, nonushta qilish va maktabga yo'l olish ketma-ketligi",
+                "Xonada shunchaki o'tirib xayol surish",
+                "Tasodifiy ravishda kitob varaqlarini ochish",
+                "Tush ko'rish"
+            ],
+            "a": 0
+        },
+        {
+            "t": 5,
+            "q": "Agar robotga berilgan buyruqlar ketma-ketligi buzilsa yoki noaniq bo'lsa nima sodir bo'ladi?",
+            "o": [
+                "Robot vazifani to'g'ri bajarolmaydi va xatolik yuz beradi",
+                "Robot tezroq ishlaydi",
+                "Robot o'z-o'zidan yangi dastur yozadi",
+                "Hech narsa o'zgarmaydi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 5,
+            "q": "Choy damlash algoritmida suvni qaynatmay turib choy damlash qaysi xususiyatning buzilishidir?",
+            "o": [
+                "Ketma-ketlik",
+                "Rangdorlik",
+                "Og'irlik",
+                "Shovqinlik"
+            ],
+            "a": 0
+        },
+        {
+            "t": 5,
+            "q": "Nima uchun kompyuter va robotlarga algoritm aniq berilishi kerak?",
+            "o": [
+                "Chunki robotlar inson kabi o'zi bilmagan narsani taxmin qila olmaydi, faqat berilgan buyruqni bajaradi",
+                "Chunki robotlar juda aqlli va buyruqsiz ham ishlaydi",
+                "Chunki robotlar buyruqlarni yoqtirmaydi",
+                "Chunki robotlar faqat o'zbekcha tushunadi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 5,
+            "q": "Algoritm faqat kompyuterlar uchun yoziladigan kodmi?",
+            "o": [
+                "Yo'q, u hayotimizning ajralmas qismi va mantiqiy poydevoridir",
+                "Ha, faqat kompyuterlar uchun",
+                "Ha, faqat kosmik raketalar uchun",
+                "Yo'q, u faqat matematik tenglama"
+            ],
+            "a": 0
+        },
+        {
+            "t": 6,
+            "q": "Blok-sxema nima uchun kerak?",
+            "o": [
+                "Jarayonni so'zlar bilan emas, xalqaro chizmalar va grafik belgilar orqali tushuntirish uchun",
+                "Faqat daftarni bezash uchun",
+                "Faqat kompyuter platasini chizish uchun",
+                "Robotni bo'yash uchun"
+            ],
+            "a": 0
+        },
+        {
+            "t": 6,
+            "q": "Blok-sxemada 'Oval' belgisi qanday vazifani bajaradi?",
+            "o": [
+                "Jarayonning Boshlanishi yoki Tugashini (chegaralarini) bildiradi",
+                "Biror harakat yoki amalni bajaradi",
+                "Shartni tekshiradi",
+                "Ma'lumot kiritadi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 6,
+            "q": "Blok-sxemada 'To'g'ri to'rtburchak' belgisi qanday vazifani bajaradi?",
+            "o": [
+                "Amal / Harakat (biror ishni bajarish)",
+                "Boshlanish va tugash",
+                "Shart tekshirish (Ha/Yo'q)",
+                "Yo'nalish ko'rsatish"
+            ],
+            "a": 0
+        },
+        {
+            "t": 6,
+            "q": "Blok-sxemada 'Romb' (shart) belgisi qanday vazifani bajaradi?",
+            "o": [
+                "Qaror qabul qilish (mantiqiy savol: Ha/Yo'q)",
+                "Jarayonni boshlash",
+                "Ma'lumot chiqarish",
+                "Simlarni ulash"
+            ],
+            "a": 0
+        },
+        {
+            "t": 6,
+            "q": "Blok-sxemada 'Parallelogramm' belgisi qanday vazifani bajaradi?",
+            "o": [
+                "Kirish yoki Chiqish (ma'lumot kiritish/olish)",
+                "Shart tekshirish",
+                "Tugash",
+                "Harakatni to'xtatish"
+            ],
+            "a": 0
+        },
+        {
+            "t": 6,
+            "q": "Blok-sxemada 'Strelka' (yo'nalish) belgisi nimani ko'rsatadi?",
+            "o": [
+                "Qadamlarning bajarilish yo'nalishi va ketma-ketligini",
+                "Robotning og'irligini",
+                "Elektr kuchlanishini",
+                "LED rangini"
+            ],
+            "a": 0
+        },
+        {
+            "t": 6,
+            "q": "Chiroqni yoqish blok-sxemasida 'Chiroq yondimi?' degan savol qaysi geometrik shakl ichiga yoziladi?",
+            "o": [
+                "Romb (Shart)",
+                "Oval",
+                "To'g'ri to'rtburchak",
+                "Parallelogramm"
+            ],
+            "a": 0
+        },
+        {
+            "t": 6,
+            "q": "Blok-sxemani chizishda boshlanish va tugash belgilari bir-biridan nimasi bilan farq qiladi?",
+            "o": [
+                "Shakli bir xil (Oval), lekin ichida 'Boshlanish' va 'Tugash' deb yoziladi",
+                "Boshlanish uchburchak, tugash doira bo'ladi",
+                "Tugash belgisi bo'lmaydi",
+                "Boshlanish belgisi doira bo'ladi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 6,
+            "q": "Romb simvolidan (shartdan) nechta asosiy yo'nalish (tarmoq) chiqadi?",
+            "o": [
+                "Ikkita: 'HA' va 'YO'Q'",
+                "Faqat bitta",
+                "O'nta",
+                "Cheksiz ko'p"
+            ],
+            "a": 0
+        },
+        {
+            "t": 6,
+            "q": "Tishni yuvish yoki choy damlash jarayonini blok-sxema ko'rinishida tasvirlash muhandislikda nima deyiladi?",
+            "o": [
+                "Jarayonni modellashtirish (Blueprint/xarita yaratish)",
+                "Faqat rasm chizish",
+                "Faqat ertak yozish",
+                "Faqat kompyuterni formatlash"
+            ],
+            "a": 0
+        },
+        {
+            "t": 6,
+            "q": "Blok-sxemada 'Chiroqni yoqish (tugmani bosish)' harakati qaysi shaklda tasvirlanadi?",
+            "o": [
+                "To'g'ri to'rtburchak (Amal)",
+                "Oval",
+                "Romb",
+                "Parallelogramm"
+            ],
+            "a": 0
+        },
+        {
+            "t": 6,
+            "q": "Guruh ishida A4 qog'ozda blok-sxema chizishda qaysi 5 ta belgidan foydalanish o'rgatilgan?",
+            "o": [
+                "Oval, to'g'ri to'rtburchak, romb, parallelogramm, strelka",
+                "Doira, kvadrat, oltiburchak, yulduzcha, nuqta",
+                "Prizma, piramida, kub, shar, silindr",
+                "Faqat to'g'ri chiziqlar"
+            ],
+            "a": 0
+        }
+    ]
+}
