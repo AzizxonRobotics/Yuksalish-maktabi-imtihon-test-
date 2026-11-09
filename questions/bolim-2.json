@@ -1,1 +1,458 @@
-
+{
+    "id": 1,
+    "name": "1-bo'lim: Robototexnika asoslari",
+    "active": true,
+   "questions": [
+        {
+            "t": 0,
+            "q": "Diodning asosiy vazifasi nimadan iborat?",
+            "o": [
+                "Elektr energiyasini uzoq vaqt saqlash",
+                "Elektr tokini faqat bitta yo'nalishda o'tkazish",
+                "Kuchlanishni 220 V gacha oshirish",
+                "Zanjirga qo'shimcha qarshilik kiritish"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Diodning musbat va manfiy qutblari qanday nomlanadi?",
+            "o": [
+                "Emitter va Kollektor",
+                "Baza va Zatvor",
+                "Anod (+) va Katod (–)",
+                "Kondensator va Rezistor"
+            ],
+            "a": 2
+        },
+        {
+            "t": 0,
+            "q": "Diod ichidagi yarim o'tkazgich modda (odatda kremniy yoki germaniy) qanday ikki qismga bo'lingan?",
+            "o": [
+                "Musbat P qismi va manfiy N qismi",
+                "Faqat manfiy N qismiga",
+                "Faqat neytral qismga",
+                "Ikkita musbat P qismiga"
+            ],
+            "a": 0
+        },
+        {
+            "t": 0,
+            "q": "Diod tok o'tkazadigan va tok o'tkazmaydigan holatlar qanday ataladi?",
+            "o": [
+                "Ochiq holat va Yopiq holat",
+                "Forward Bias (to'g'ri ulanish) va Reverse Bias (teskari ulanish)",
+                "Zaryadlanish va Razryadlanish",
+                "Kuchaytirish va So'ndirish"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Oddiy to'g'rilagich diod (Rectifier diode) asosan qaysi qurilmalarda ishlatiladi?",
+            "o": [
+                "Faqat eshik qo'ng'irog'ida",
+                "Adapter va zaryadlagichlarda",
+                "Faqat mikrofonlarda",
+                "Kompyuter dinamiklarida"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "LED (Light Emitting Diode) qanday element hisoblanadi?",
+            "o": [
+                "Ichidan elektr toki o'tganda yorug'lik chiqaradigan diod",
+                "Faqat yorug'likni sezuvchi qabul qilgich",
+                "Kuchlanishni kamaytiruvchi rezistor",
+                "Yuqori chastotali generator"
+            ],
+            "a": 0
+        },
+        {
+            "t": 0,
+            "q": "LED yoritgichlari asosan qayerlarda ishlatiladi?",
+            "o": [
+                "Faqat yuqori voltli podstansiyalarda",
+                "Lampalarda, indikatorlarda va televizorlarda",
+                "Faqat elektr motorlarining rotorida",
+                "Transformator moyini sovutishda"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Fotodiodning asosiy ishlash prinsipi nima?",
+            "o": [
+                "Yorug'lik chiqaradi va qiziydi",
+                "Yorug'likni sezadi va uning kuchiga qarab tok oqimini o'zgartiradi",
+                "Tokni to'g'ridan-to'g'ri o'zgaruvchan tokka aylantiradi",
+                "Mexanik tebranishlarni kuchaytiradi"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Fotodiodlar qaysi qurilmalarda keng qo'llaniladi?",
+            "o": [
+                "Isitish pechlarida",
+                "Sensorlar, xavfsizlik tizimlari va masofadan boshqarish pultlarida",
+                "Avtomobil akkumulyatorida",
+                "Faqat oddiy mexanik soatlarda"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Uy rozetkasidagi o'zgaruvchan tokni (AC) o'zgarmas tokka (DC) aylantirish uchun nima ishlatiladi?",
+            "o": [
+                "Diod ko'prigi",
+                "Oddiy kalit",
+                "Elektrolitik kondensatorning faqat o'zi",
+                "Bitta rezistor"
+            ],
+            "a": 0
+        },
+        {
+            "t": 0,
+            "q": "O'zgaruvchan tokni (AC) o'zgarmas tokka (DC) aylantirish jarayoni nima deb ataladi?",
+            "o": [
+                "Generatsiya",
+                "To'g'rilash (rectification)",
+                "Modulyatsiya",
+                "Induksiya"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Tranzistor qanday vazifani bajaruvchi elektron element hisoblanadi?",
+            "o": [
+                "Faqat elektr energiyasini to'plovchi element",
+                "Elektr tokini kuchaytiruvchi va boshqaruvchi element",
+                "Faqat o'zgaruvchan tokni o'lchovchi asbob",
+                "Zanjirni qizdiruvchi element"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Bipolyar tranzistor (BJT) nechta oyoqchaga ega va ular qanday nomlanadi?",
+            "o": [
+                "2 ta: Anod va Katod",
+                "3 ta: Emitter (E), Base (B), Collector (C)",
+                "4 ta: Kirish, Chiqish, Yer, Faz",
+                "1 ta: Markaziy o'q"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Tranzistorda tok oqimini boshqaruvchi oyoqcha qaysi?",
+            "o": [
+                "Collector",
+                "Emitter",
+                "Base (Baza)",
+                "Korpus"
+            ],
+            "a": 2
+        },
+        {
+            "t": 1,
+            "q": "Tranzistorda tokni qabul qiluvchi / katta tok chiqadigan oyoqcha nima deb ataladi?",
+            "o": [
+                "Collector (Kollektor)",
+                "Base",
+                "Katod",
+                "Anod"
+            ],
+            "a": 0
+        },
+        {
+            "t": 1,
+            "q": "NPN tranzistor qachon tok o'tkazadi?",
+            "o": [
+                "Har doim tok o'tkazib turadi",
+                "Faqat boshqaruvchi signal berilganda",
+                "Kuchlanish nolga teng bo'lganda",
+                "Faqat harorat ko'tarilganda"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "PNP tranzistorning NPN tranzistordan farqi nima?",
+            "o": [
+                "Undan hech qachon tok o'tmaydi",
+                "Tok odatiy holatda o'tadi, lekin signal berilsa to'xtaydi",
+                "U faqat yorug'lik berganda ishlaydi",
+                "Uning oyoqchalari bo'lmaydi"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Robotning motorini yoqish uchun asosan qaysi turdagi tranzistor ishlatiladi?",
+            "o": [
+                "NPN tranzistor",
+                "Oddiy fotodiod",
+                "Faqat yuqori voltli transformator",
+                "Elektrolitik kondensator"
+            ],
+            "a": 0
+        },
+        {
+            "t": 1,
+            "q": "Kichik signallarni kattalashtiruvchi qurilma nima deb ataladi?",
+            "o": [
+                "Rezistor",
+                "Amplifier (Kuchaytirgich)",
+                "Izolyator",
+                "Kalit"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Har bir zamonaviy kompyuter protsessorida millionlab mavjud bo'lgan tranzistor turi qaysi?",
+            "o": [
+                "Oddiy simli kalitlar",
+                "MOSFET (Maydon effektli tranzistor)",
+                "Galvanik elementlar",
+                "Termistorlar"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Nima sababdan MOSFET tranzistorlari kompyuter, telefon va robotlarda juda ko'p ishlatiladi?",
+            "o": [
+                "Ular juda og'ir va katta bo'lgani uchun",
+                "Ular tez, ishonchli va juda kichkina bo'lgani uchun",
+                "Ular faqat 220 V kuchlanishda ishlagani uchun",
+                "Ular faqat bitta tomonga egilishi sababli"
+            ],
+            "a": 1
+        },
+        {
+            "t": 2,
+            "q": "Kondensator nima?",
+            "o": [
+                "Elektr tokini mexanik harakatga aylantiruvchi motor",
+                "Elektr energiyasini vaqtincha saqlab turadigan qurilma",
+                "Elektr simlarini ulash uchun ishlatiladigan qisqich",
+                "Tok kuchini doimiy ravishda oshiruvchi generator"
+            ],
+            "a": 1
+        },
+        {
+            "t": 2,
+            "q": "Kondensatorning oddiy batareyadan asosiy farqi nimada?",
+            "o": [
+                "Undan faqat yorug'lik chiqadi",
+                "Unda energiya tez yig'iladi (zaryadlanadi) va tez chiqadi (razryadlanadi)",
+                "Uni zanjirga ulab bo'lmaydi",
+                "U faqat o'zgaruvchan tok ishlab chiqaradi"
+            ],
+            "a": 1
+        },
+        {
+            "t": 2,
+            "q": "Kondensatorning zaryad saqlash qobiliyati nima deb ataladi va qanday birlikda o'lchanadi?",
+            "o": [
+                "Qarshilik (Om)",
+                "Kuchlanish (Volt)",
+                "Sig'im (Farad)",
+                "Tok kuchi (Amper)"
+            ],
+            "a": 2
+        },
+        {
+            "t": 2,
+            "q": "Elektrolitik kondensatorlar odatda qanday shaklda bo'ladi?",
+            "o": [
+                "Silindr shaklida va qutblari (+) hamda (–) bo'ladi",
+                "Uchburchak plastinka shaklida",
+                "Faqat sharsimon va qutbsiz",
+                "Yassi spiral shaklida"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "Elektrolitik kondensatorning manfiy (–) oyog'i qanday aniqlanadi?",
+            "o": [
+                "Korpusidagi chiziq (belgi) orqali va/yoki oyog'i kaltaroq bo'ladi",
+                "Har doim uzunroq bo'ladi",
+                "Qizil rangga bo'yalgan bo'ladi",
+                "Faqat uchburchak belgi bilan ko'rsatiladi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "Elektrolitik kondensator qutblari adashtirilib teskari ulansa nima sodir bo'lishi mumkin?",
+            "o": [
+                "Sig'imi avtomatik 10 barobar ortadi",
+                "Kondensator qizib, ishdan chiqishi yoki hatto portlashi mumkin",
+                "Hech qanday o'zgarish bo'lmaydi",
+                "Batareya quvvati o'z-o'zidan to'ladi"
+            ],
+            "a": 1
+        },
+        {
+            "t": 2,
+            "q": "Kondensator ustida odatda qanday parametrlar yozilgan bo'ladi?",
+            "o": [
+                "Faqat og'irligi va uzunligi",
+                "Sig'imi (masalan, 10µF, 100nF) va maksimal kuchlanishi (masalan, 16V, 50V)",
+                "Faqat simining diametri",
+                "Faqat ishlab chiqarilgan zavod manzili"
+            ],
+            "a": 1
+        },
+        {
+            "t": 3,
+            "q": "Elektr toki qanday zanjirda oqadi?",
+            "o": [
+                "Faqat ochiq zanjirda",
+                "Faqat yopiq zanjirda (manba, simlar va yuk yaxlit halqa hosil qilganda)",
+                "Zanjir uzilgan joyda",
+                "Havoda qarshilik yo'q bo'lganda"
+            ],
+            "a": 1
+        },
+        {
+            "t": 3,
+            "q": "Tugma (push button) va kalit (switch) orasidagi asosiy farq nimada?",
+            "o": [
+                "Tugma tok ishlab chiqaradi, kalit esa tokni to'playdi",
+                "Tugma faqat bosib turilganda ishlaydi, kalit esa holatini saqlaydi (ON yoki OFF)",
+                "Kalit faqat o'zgarmas tokda, tugma faqat o'zgaruvchan tokda ishlaydi",
+                "Ular orasida hech qanday farq yo'q"
+            ],
+            "a": 1
+        },
+        {
+            "t": 3,
+            "q": "Tugma qo'yib yuborilganda uning kontaktlarini ajratuvchi mexanik qism nima?",
+            "o": [
+                "Prujina",
+                "Elektromagnit",
+                "Diod",
+                "Rezistor"
+            ],
+            "a": 0
+        },
+        {
+            "t": 3,
+            "q": "Kalit yoki tugma elektr zanjirida yuk (masalan, LED) bilan qanday ulanadi?",
+            "o": [
+                "Parallel",
+                "Ketma-ket (ya'ni tok yo'lida turadi)",
+                "Faqat yerga ulanadi",
+                "To'g'ridan-to'g'ri batareyaning ikkala qutbiga yuk chetlab o'tib"
+            ],
+            "a": 1
+        },
+        {
+            "t": 3,
+            "q": "Normal ochiq (NO) tugmaning ishlash holati qanday?",
+            "o": [
+                "Bosilmaganda ochiq bo'ladi, bosilganda esa zanjirni yopadi",
+                "Bosilmaganda yopiq bo'ladi, bosilganda ochiladi",
+                "Har doim tok o'tkazib turadi",
+                "Kuchlanish tushganda o'zi ulanadi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 3,
+            "q": "Normal yopiq (NC) tugma bosilganda zanjirda nima sodir bo'ladi?",
+            "o": [
+                "Zanjir yopilib, tok oqimi kuchayadi",
+                "Zanjir ochiladi va tok to'xtaydi",
+                "Qisqa tutashuv yuzaga keladi",
+                "Batareya avtomatik o'chadi"
+            ],
+            "a": 1
+        },
+        {
+            "t": 3,
+            "q": "Ikki tugma ketma-ket ulangan zanjirda LED qachon yonadi?",
+            "o": [
+                "Istalgan bitta tugma bosilganda",
+                "Faqat ikkala tugma ham bir vaqtda bosilganda",
+                "Hech qaysi tugma bosilmaganda",
+                "Faqat birinchi tugma qo'yib yuborilganda"
+            ],
+            "a": 1
+        },
+        {
+            "t": 3,
+            "q": "Ikki tugma parallel ulangan zanjirda LED qachon yonadi?",
+            "o": [
+                "Istalgan biri bosilganda",
+                "Faqat ikkalasi bir vaqtda bosilganda",
+                "Faqat ikkalasi ham ochiq turganda",
+                "Umuman yonmaydi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 4,
+            "q": "Kalit yoki tugmani yuksiz (LED va rezistorsiz) to'g'ridan-to'g'ri batareyaga ulash nega xavfli?",
+            "o": [
+                "Tok kuchi nolga tushib qoladi",
+                "Qisqa tutashuv sodir bo'ladi, sim va batareya qizib ketadi",
+                "Kuchlanish to'satdan yo'qoladi",
+                "Hech qanday xavfi yo'q"
+            ],
+            "a": 1
+        },
+        {
+            "t": 4,
+            "q": "Laboratoriya zanjirida LED yonib ketmasligi uchun qanday element qo'shilishi shart?",
+            "o": [
+                "Katta induktiv g'altak",
+                "Rezistor (masalan, 330 Om)",
+                "Transformator",
+                "Dinamik"
+            ],
+            "a": 1
+        },
+        {
+            "t": 4,
+            "q": "O'quv amaliyotlarida xavfsizlik nuqtai nazaridan qanday kuchlanish manbai ishlatiladi?",
+            "o": [
+                "220 V tarmoq rozetkasi",
+                "4,5 V batareya (yoki 3 ta AA batareya)",
+                "380 V uch fazali tarmoq",
+                "1000 V generator"
+            ],
+            "a": 1
+        },
+        {
+            "t": 4,
+            "q": "Elektron sxemalarni lehimlashsiz (soldering) tez va xavfsiz prototiplash uchun nima ishlatiladi?",
+            "o": [
+                "Breadboard (maket platasi)",
+                "Oddiy temir sim to'ri",
+                "Alyuminiy qozon",
+                "Yelimli shisha idish"
+            ],
+            "a": 0
+        },
+        {
+            "t": 4,
+            "q": "4 oyoqli taktil tugma (push button) oyoqchalari haqida qaysi ma'lumot to'g'ri?",
+            "o": [
+                "Har bir oyoqcha alohida izolyatsiyalangan",
+                "Oyoqchalari ichkarida juft-juft bo'lib ulangan",
+                "Oyoqchalarning ikkitasi faqat sovutish uchun xizmat qiladi",
+                "Barcha 4 ta oyoqcha doimo bir-biriga tutashgan"
+            ],
+            "a": 1
+        }
+    ]
+}
