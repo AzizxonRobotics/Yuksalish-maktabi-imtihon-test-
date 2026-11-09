@@ -5,6 +5,314 @@
    "questions": [
         {
             "t": 0,
+            "q": "Arduino Uno qanday qurilma hisoblanadi?",
+            "o": [
+                "Faqat analog signallarni kuchaytiruvchi element",
+                "Elektron qurilmalarni dastur yordamida boshqarish uchun mo‘ljallangan mikrokontroller platasi",
+                "Kompyuterlar uchun operativ xotira platasi",
+                "Tarmoqqa ulanish uchun maxsus modem"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Arduino Uno platasining asosiy vazifalari qaysi javobda to‘g‘ri keltirilgan?",
+            "o": [
+                "Faqat yuqori kuchlanishli tok hosil qilish",
+                "Ma’lumot oladi, buyruq bajaradi va qurilmalarni boshqaradi",
+                "Faqat mexanik harakat hosil qiladi",
+                "Ma’lumotlarni faqat qog‘ozga chop etadi"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Arduino Uno R3 platasida qaysi mikrokontroller ishlatiladi?",
+            "o": [
+                "Intel Core i5",
+                "ATmega328P",
+                "ESP8266",
+                "STM32F4"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "ATmega328P mikrokontrollerining vazifasi nimadan iborat?",
+            "o": [
+                "Faqat elektr energiyasini to‘plash",
+                "Dasturdagi buyruqlarni bajaradi, sensorlardan kelgan ma’lumotlarni qayta ishlaydi va elektron qurilmalarni boshqaradi",
+                "220 V kuchlanishni to‘g‘ridan-to‘g‘ri taqsimlaydi",
+                "Doimiy magnit maydon hosil qiladi"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "ATmega328P mikrokontrollerining Flash xotirasi hajmi qancha?",
+            "o": [
+                "1 KB",
+                "2 KB",
+                "32 KB",
+                "64 KB"
+            ],
+            "a": 2
+        },
+        {
+            "t": 0,
+            "q": "ATmega328P mikrokontrollerining SRAM xotirasi hajmi qancha?",
+            "o": [
+                "32 KB",
+                "2 KB",
+                "1 KB",
+                "16 KB"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "ATmega328P mikrokontrollerining EEPROM xotirasi hajmi qancha?",
+            "o": [
+                "512 bayt",
+                "1 KB",
+                "2 KB",
+                "4 KB"
+            ],
+            "a": 1
+        },
+        {
+            "t": 0,
+            "q": "Arduino Uno platasining asosiy tarkibiy qismlariga nimalar kiradi?",
+            "o": [
+                "Faqat transformator va akkumulyator",
+                "Pinlar, quvvat manbai, USB port va mikrokontroller",
+                "Faqat sovutgich va klaviatura",
+                "Faqat lehimlash stansiyasi va rezistorlar"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Arduino Uno platasida raqamli (digital) pinlar qanday raqamlangan?",
+            "o": [
+                "1 dan 10 gacha",
+                "0 dan 13 gacha raqamli pinlar",
+                "A0 dan A5 gacha",
+                "1 dan 16 gacha"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Digital (raqamli) pinlar qanday ikki asosiy mantiqiy holatga ega?",
+            "o": [
+                "0 V dan 220 V gacha bo‘lgan uzluksiz holatlar",
+                "HIGH (yuqori holat) va LOW (past holat)",
+                "Faqat manfiy kuchlanish holatlari",
+                "O‘zgaruvchan sinusoidal holatlar"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Raqamli (digital) pinlar orqali amalga oshiriladigan vazifalar misoliga qaysi biri kiradi?",
+            "o": [
+                "LEDni yoqish va o‘chirish, tugma holatini aniqlash, buzzer signalini boshqarish",
+                "Potensiometrdan uzluksiz o‘zgaruvchan signal o‘qish",
+                "Harorat sensoridan uzluksiz kuchlanish qabul qilish",
+                "O‘zgaruvchan tok chastotasini o‘lchash"
+            ],
+            "a": 0
+        },
+        {
+            "t": 1,
+            "q": "Arduino Uno platasida analog kirishlar qanday belgilanadi?",
+            "o": [
+                "D0–D13",
+                "A0–A5 kirishlari",
+                "P1–P6",
+                "IN1–IN8"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Analog pinlar turli kuchlanish qiymatlarini qanday oraliqda o‘qiydi?",
+            "o": [
+                "0 dan 255 gacha",
+                "0 (taxminan 0 V) dan 1023 (taxminan 5 V) gacha",
+                "0 dan 100 gacha",
+                "-5 V dan +5 V gacha"
+            ],
+            "a": 1
+        },
+        {
+            "t": 1,
+            "q": "Analog kirishlarda 0 va 1023 sonli qiymatlari mos ravishda qanday kuchlanishga to‘g‘ri keladi?",
+            "o": [
+                "0 — taxminan 0 V, 1023 — taxminan 5 V",
+                "0 — taxminan 5 V, 1023 — taxminan 220 V",
+                "0 — taxminan 1 V, 1023 — taxminan 3.3 V",
+                "0 — taxminan -5 V, 1023 — taxminan 0 V"
+            ],
+            "a": 0
+        },
+        {
+            "t": 1,
+            "q": "Qaysi elementlar analog pinlar orqali o‘qiladigan qurilmalar misoli sifatida keltirilgan?",
+            "o": [
+                "Faqat oddiy ikki holatli kalitlar",
+                "Potensiometr, analog yorug‘lik sensori va analog harorat sensori",
+                "Faqat 220 V lik kuch transformatorlari",
+                "Faqat kompyuter displeylari"
+            ],
+            "a": 1
+        },
+        {
+            "t": 2,
+            "q": "Arduino Uno platasidagi VIN pinining vazifasi nima?",
+            "o": [
+                "Videokamerani ulash",
+                "Tashqi quvvat manbaini ulash",
+                "Ovozli signal uzatish",
+                "Platani internet tarmog‘iga ulash"
+            ],
+            "a": 1
+        },
+        {
+            "t": 2,
+            "q": "Arduino Uno platasidagi 5V pinining vazifasi nima?",
+            "o": [
+                "5 voltlik quvvat liniyasi",
+                "5 ta alohida kompyuterni ulash porti",
+                "5 kGts chastotali signal generatori",
+                "Maksimal 5 amperli yuk ulash nuqtasi"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "Arduino Uno platasidagi 3.3V pinining vazifasi nima?",
+            "o": [
+                "3,3 voltlik quvvat liniyasi",
+                "33 voltli transformatorga ulanish liniyasi",
+                "3 ta analog sensorni guruhlash",
+                "3.3 Om ichki qarshilik o‘rnatish"
+            ],
+            "a": 0
+        },
+        {
+            "t": 2,
+            "q": "Arduino Uno dagi GND pinining vazifasi nima?",
+            "o": [
+                "Yuqori chastotali impuls uzatish",
+                "Umumiy yer (ground) nuqtasi vazifasini bajarish",
+                "Tashqi antennani ulash",
+                "Platani masofadan o‘chirish"
+            ],
+            "a": 1
+        },
+        {
+            "t": 2,
+            "q": "Arduino Uno platasidagi RESET pinining vazifasi nima?",
+            "o": [
+                "Flash xotiradagi barcha dasturlarni butunlay o‘chirib tashlash",
+                "Mikrokontrollerni qayta ishga tushirish",
+                "Kodni avtomatik tarzda tahrirlash",
+                "Analog signallarni ikkilik kodga aylantirish"
+            ],
+            "a": 1
+        },
+        {
+            "t": 2,
+            "q": "PWM qisqartmasining to‘liq inglizcha nomi nima?",
+            "o": [
+                "Power Wave Modulation",
+                "Pulse Width Modulation",
+                "Processor Word Management",
+                "Parallel Wire Mode"
+            ],
+            "a": 1
+        },
+        {
+            "t": 2,
+            "q": "PWM (Pulse Width Modulation) nima?",
+            "o": [
+                "Impuls kengligini modulyatsiya qilish usuli",
+                "Tok kuchini doimiy nolga tushirish usuli",
+                "Rezistorning qarshiligini mexanik o‘zgartirish",
+                "Elektr zanjirini doimiy ochiq saqlash usuli"
+            ],
+            "a": 0
+        },
+        {
+            "t": 3,
+            "q": "ICSP qisqartmasining to‘liq nomi nima?",
+            "o": [
+                "Internal Computer System Program",
+                "In-Circuit Serial Programming",
+                "Integrated Circuit Sensor Port",
+                "Internet Connection Serial Protocol"
+            ],
+            "a": 1
+        },
+        {
+            "t": 3,
+            "q": "ICSP interfeysining asosiy vazifasi nima?",
+            "o": [
+                "Mikrokontrollerni platadan ajratmasdan dasturlash uchun ishlatiladigan interfeys",
+                "Faqat tashqi dinamikni ulash",
+                "Plataning sovutish ventilyatorini boshqarish",
+                "Faqat batareya quvvatini zaryadlash"
+            ],
+            "a": 0
+        },
+        {
+            "t": 3,
+            "q": "Quyidagilardan qaysi biri ICSP nima uchun kerakligi haqidagi sabablarga kiradi?",
+            "o": [
+                "Faqat analog datchiklarning kuchlanishini oshirish",
+                "Mikrokontrollerni maxsus dasturlagich orqali dasturlash, SPI orqali mos qurilmalar bilan aloqa qilish yoki bootloader tiklash",
+                "Faqat 220 V elektr tarmog‘idan quvvat olish",
+                "Plataning og‘irligini kamaytirish"
+            ],
+            "a": 1
+        },
+        {
+            "t": 3,
+            "q": "ICSP ulagichidagi VCC kontaktini ulashda qanday muhim qoidaga amal qilish kerak?",
+            "o": [
+                "Uni har doim eng yuqori kuchlanishga ulash shart",
+                "Tashqi quvvat manbaiga o‘zboshimchalik bilan ulamaslik, quvvat manbalari o‘zaro mos bo‘lishi lozim",
+                "Har doim 220 V li rozetkaga to‘g‘ridan-to‘g‘ri ulash kerak",
+                "Hech qanday cheklov yo‘q, ixtiyoriy quvvat manbaiga ulash mumkin"
+            ],
+            "a": 1
+        },
+        {
+            "t": 3,
+            "q": "SPI interfeysidagi MISO pinining vazifasi qaysi javobda to‘g‘ri ko‘rsatilgan?",
+            "o": [
+                "SPI ma’lumotini boshqaruvchidan qurilmaga uzatadi",
+                "SPI ma’lumotini qurilmadan boshqaruvchiga uzatadi",
+                "Faqat quvvat liniyasi sifatida xizmat qiladi",
+                "Mikrokontrollerni o‘chirib yoqadi"
+            ],
+            "a": 1
+        },
+        {
+            "t": 3,
+            "q": "SPI interfeysidagi MOSI pinining vazifasi nima?",
+            "o": [
+                "SPI ma’lumotini qurilmadan boshqaruvchiga uzatadi",
+                "SPI ma’lumotini boshqaruvchidan qurilmaga uzatadi",
+                "Sinxronlash impulsini to‘xtatadi",
+                "Umumiy yer (GND) nuqtasi hisoblanadi"
+            ],
+            "a": 1
+        }
+       , {
+            "t": 0,
             "q": "Diodning asosiy vazifasi nimadan iborat?",
             "o": [
                 "Elektr energiyasini uzoq vaqt saqlash",
